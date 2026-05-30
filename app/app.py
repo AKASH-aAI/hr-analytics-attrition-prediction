@@ -7,6 +7,7 @@ from PIL import Image
 import base64
 import plotly.graph_objects as go
 import plotly.express as px
+from pathlib import Path
 
 # Page configuration
 st.set_page_config(
@@ -133,8 +134,9 @@ st.markdown("""
 # Load model and columns
 @st.cache_resource
 def load_model():
-    model = joblib.load('rf_model.pkl')
-    model_columns = joblib.load('model_columns.pkl')
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    model = joblib.load(BASE_DIR / "models" / "rf_model.pkl")
+    model_columns = joblib.load(BASE_DIR / "models" / "model_columns.pkl")
     return model, model_columns
 
 # Sidebar content
