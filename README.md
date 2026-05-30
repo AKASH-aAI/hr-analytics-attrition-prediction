@@ -233,10 +233,7 @@ The application allows users to:
 
 ### Streamlit Deployment
 
-Add your deployed application link here:
-
-https://hr-analytics-attrition-prediction-uqeqgk4fu6vi3j8kpeefv8.streamlit.app/
-
+https://hr-analytics-attrition-prediction-tnnrlac6zvfrwtusmqklcp.streamlit.app/
 ---
 
 # 📄 Project Report
