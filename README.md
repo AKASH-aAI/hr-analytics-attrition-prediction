@@ -225,8 +225,8 @@ The application allows users to:
 
 ### Application Screenshot
 
-assets/app_screenshot.png
-
+[assets/app_screenshot.png
+](https://github.com/AKASH-aAI/hr-analytics-attrition-prediction/blob/main/assets/app_screenshot.png)
 ---
 
 # 🌐 Live Application
