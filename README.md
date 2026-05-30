@@ -208,8 +208,8 @@ The Random Forest model identified the following as the most influential factors
 Add Dashboard Screenshot Here
 
 
-assets/dashboard.png
-
+[assets/dashboard.png
+](https://github.com/AKASH-aAI/hr-analytics-attrition-prediction/blob/main/assets/dashboard.png)
 ---
 
 # 🤖 Streamlit Web Application
